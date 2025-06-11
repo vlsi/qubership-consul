@@ -3,7 +3,8 @@ name: Run Consul Pipeline
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-    branches: [main, pr56]
+    branches: [main]
+  push: null
 
 jobs:
   Consul-Pipeline:
