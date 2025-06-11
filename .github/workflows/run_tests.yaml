@@ -8,7 +8,7 @@ on:
 
 jobs:
   Consul-Pipeline:
-    uses: Netcracker/qubership-test-pipelines/.github/workflows/consul.yaml@avoid_duplicate
+    uses: vlsi/qubership-test-pipelines/.github/workflows/consul.yaml@avoid_duplicate
     with:
       service_branch: '${{ github.head_ref || github.ref_name }}'
       versions_file: '.github/versions.yaml'
